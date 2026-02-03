@@ -1,1 +1,48 @@
-"__pycache__/.DS_Store.venv/env/*.pycdata/models/outputs/" 
+"# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Data Files (large datasets)
+data/
+*.csv
+*.npy
+*.npz
+
+# Models (trained model files)
+models/
+*.pth
+*.pkl
+*.h5
+*.pt
+
+# Results and Outputs
+results/
+outputs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/" 
